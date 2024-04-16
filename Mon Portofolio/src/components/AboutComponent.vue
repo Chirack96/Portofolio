@@ -1,13 +1,13 @@
 <template>
-    <div class="container mx-auto px-4 py-8">
+    <div class="container mx-auto px-4 py-8 animate-fadeIn">
         <div class="flex flex-wrap items-center">
-            <!-- Section photo -->
-            <div class="w-full md:w-1/3">
-                <img src="@/assets/photo.jpg" class="rounded-full shadow-lg mx-auto" style="width: 150px; height: 150px;"
-                    alt="Photo de profil">
+            <!-- Section photo avec animation adaptative -->
+            <div class="w-full md:w-1/3 animate-slideInLeft flex justify-center mb-4 md:mb-0">
+                <img class="rounded-full object-cover w-32 h-32 md:w-48 md:h-48" src="@/assets/photo.jpg"
+                    alt="Profile Photo">
             </div>
-            <!-- Section de contenu -->
-            <div class="w-full md:w-2/3 md:pl-8">
+            <!-- Section de contenu avec animation -->
+            <div class="w-full md:w-2/3 md:pl-8 animate-slideInRight">
                 <h2 class="text-2xl font-bold mb-3">À propos de moi</h2>
                 <p class="text-justify mb-3">
                     Développeur Fullstack avec une forte expertise dans les technologies front-end et back-end, je crée
@@ -34,3 +34,51 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-slideInLeft {
+    animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animate-slideInRight {
+    animation: slideInRight 0.8s ease-out forwards;
+}
+</style>

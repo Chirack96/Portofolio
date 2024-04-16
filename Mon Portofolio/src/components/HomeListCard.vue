@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-wrap justify-center gap-40 p-32 lg:animate-fadein animate-none">
-        <HomeCard v-for="card in cards" :key="card.id" :title="card.title" :description="card.description"
-            :target="card.target" />
+    <div class="flex flex-wrap justify-center gap-40 p-32">
+        <HomeCard v-for="(card, index) in cards" :key="card.id" :title="card.title" :description="card.description"
+            :target="card.target" :class="[(index % 2 === 0) ? 'animate-slideInLeft' : 'animate-slideInRight']" />
     </div>
 </template>
 
@@ -18,5 +18,35 @@ const cards = [
 </script>
 
 <style scoped>
-/* Additional styles if needed */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate-slideInLeft {
+    animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animate-slideInRight {
+    animation: slideInRight 0.8s ease-out forwards;
+}
 </style>

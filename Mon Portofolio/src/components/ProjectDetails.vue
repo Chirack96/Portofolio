@@ -1,13 +1,8 @@
 <template>
   <div class="container mx-auto px-4">
     <div class="flex flex-wrap -m-4">
-      <ProjectCard
-        v-for="project in projects"
-        :key="project.id"
-        :name="project.name"
-        :description="project.description"
-        :image="project.image"
-      />
+      <ProjectCard class="p-4 animate-slideInDown" v-for="project in projects" :key="project.id" :name="project.name"
+        :description="project.description" :image="project.image" />
     </div>
   </div>
 </template>
@@ -34,3 +29,21 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideInDown {
+  animation: slideInDown 0.8s ease-out forwards;
+}
+</style>
