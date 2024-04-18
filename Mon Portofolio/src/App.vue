@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col min-h-screen bg-gray-200">
-    <!-- HeaderComponent fixed to the top of the viewport -->
+    
     <header class="sticky top-0 z-50 bg-gray-800">
       <HeaderComponent />
     </header>
@@ -8,7 +8,7 @@
       <router-view />
     </main>
     <footer class="bg-gray-800 text-white text-center py-4">
-      © Votre Nom - Portfolio 2024
+      © JACQUES GOUGOU - Portfolio 2024
     </footer>
   </div>
 </template>
@@ -24,6 +24,5 @@ import HeaderComponent from '@/components/HeaderComponent.vue';
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  /* Optionnel: fixe l'arrière-plan lors du défilement */
 }
 </style>

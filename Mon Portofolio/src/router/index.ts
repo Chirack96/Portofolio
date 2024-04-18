@@ -1,6 +1,4 @@
-import BioView from '@/views/BioView.vue';
 import ContactView from '@/views/ContactView.vue';
-import EducationView from '@/views/EducationView.vue';
 import FormationsView from '@/views/FormationsView.vue';
 import HomeView from '@/views/HomeView.vue';
 import ProjectsView from '@/views/ProjectsView.vue';
@@ -18,22 +16,13 @@ const router = createRouter({
       path: '/',
       redirect: { name: 'home' }
     },
-    {
-      path: '/bio',
-      name: 'bio',
-      component: BioView
-    },
+  
     {
       path: '/formations',
       name: 'formations',
       component: FormationsView
     },
     
-    {
-      path: '/education',
-      name: 'education',
-      component: EducationView
-    },
     {
       path: '/projects',
       name: 'projects',

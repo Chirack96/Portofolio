@@ -1,6 +1,6 @@
 <template>
     <div>
-        <!-- Animation pour le formulaire venant de la droite -->
+        
         <form @submit.prevent="submitContactForm"
             class="max-w-lg mx-auto p-8 border rounded-lg shadow-lg animate-slideInRight">
             <div class="mb-6">
@@ -24,13 +24,16 @@
                 Submit
             </button>
         </form>
-        <!-- Animation pour les liens des réseaux sociaux venant de la gauche -->
+        
         <div class="max-w-lg mx-auto mt-8 flex justify-around animate-slideInLeft">
-            <a href="" target="_blank">
-                <img src="" alt="LinkedIn" class="w-8 h-8">
+            <a href="www.linkedin.com" target="_blank">
+                <img src="@/assets/linkedin.png" alt="LinkedIn" class="w-8 h-8">
             </a>
-            <a href="" target="_blank">
-                <img src="" alt="GitHub" class="w-8 h-8">
+            <a href="www.github.com" target="_blank">
+                <img src="@/assets/github.png" alt="GitHub" class="w-8 h-8">
+            </a>
+            <a href="www.twitter.com" target="_blank">
+                <img src="@/assets/TWITTER.png" alt="Twitter" class="w-8 h-8">
             </a>
         </div>
     </div>
@@ -47,7 +50,7 @@ const contactForm = ref({
 
 function submitContactForm() {
     console.log('Contact form data:', contactForm.value);
-    // Add logic to send data to a server
+
 }
 </script>
 
