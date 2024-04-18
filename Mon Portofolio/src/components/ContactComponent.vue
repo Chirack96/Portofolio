@@ -1,6 +1,5 @@
 <template>
     <div>
-        
         <form @submit.prevent="submitContactForm"
             class="max-w-lg mx-auto p-8 border rounded-lg shadow-lg animate-slideInRight">
             <div class="mb-6">
@@ -24,15 +23,22 @@
                 Submit
             </button>
         </form>
-        
+
+       
+        <div v-if="showNotification"
+            class="fixed top-5 right-5 z-50 p-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800 shadow-lg"
+            role="alert">
+            <span class="font-medium">{{ notificationMessage }}</span>
+        </div>
+
         <div class="max-w-lg mx-auto mt-8 flex justify-around animate-slideInLeft">
-            <a href="www.linkedin.com" target="_blank">
+            <a href="https://www.linkedin.com" target="_blank">
                 <img src="@/assets/linkedin.png" alt="LinkedIn" class="w-8 h-8">
             </a>
-            <a href="www.github.com" target="_blank">
+            <a href="https://www.github.com" target="_blank">
                 <img src="@/assets/github.png" alt="GitHub" class="w-8 h-8">
             </a>
-            <a href="www.twitter.com" target="_blank">
+            <a href="https://www.twitter.com" target="_blank">
                 <img src="@/assets/TWITTER.png" alt="Twitter" class="w-8 h-8">
             </a>
         </div>
@@ -40,6 +46,7 @@
 </template>
 
 <script setup lang="ts">
+import axios from 'axios';
 import { ref } from 'vue';
 
 const contactForm = ref({
@@ -47,10 +54,26 @@ const contactForm = ref({
     email: '',
     message: ''
 });
+const showNotification = ref(false);
+const notificationMessage = ref('');
 
-function submitContactForm() {
-    console.log('Contact form data:', contactForm.value);
-
+async function submitContactForm() {
+    try {
+        const response = await axios.post('http://localhost:8080/api/contact', contactForm.value);
+        console.log('Server response:', response);
+        notificationMessage.value = 'Message sent successfully!';
+        showNotification.value = true;
+        setTimeout(() => {
+            showNotification.value = false;
+        }, 3000);
+        contactForm.value = { name: '', email: '', message: '' };
+    } catch (error) {
+        notificationMessage.value = 'Failed to send message. Please try again later.';
+        showNotification.value = true;
+        setTimeout(() => {
+            showNotification.value = false;
+        }, 3000);
+    }
 }
 </script>
 
