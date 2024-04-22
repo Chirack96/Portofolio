@@ -7,7 +7,7 @@
     <main class="mx-auto main-bg flex-grow p-12 max-w-16xl w-full">
       <router-view />
     </main>
-    <footer class="bg-gray-800 text-white text-center py-4">
+    <footer class="bg-black text-white text-center py-4">
       © JACQUES GOUGOU - Portfolio 2024
     </footer>
   </div>

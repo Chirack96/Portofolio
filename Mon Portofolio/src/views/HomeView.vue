@@ -2,13 +2,14 @@
   <div class="min-h-screen flex items-center justify-center ">
     <aside
       class="hidden sm:block fixed top-1/2 left-0 -translate-y-1/2 z-50 space-y-4 p-2 bg-white rounded-r-lg shadow-lg">
-      <a href="https://linkedin.com" target="_blank" class="block bg-white m-2 p-2 rounded-full shadow">
+      <a href="https://www.linkedin.com/in/jacques-gougou-457a93287" target="_blank"
+        class="block bg-white m-2 p-2 rounded-full shadow">
         <img src="@/assets/linkedin.png" alt="LinkedIn" class="h-8 w-8">
       </a>
-      <a href="https://github.com" target="_blank" class="block bg-white m-2 p-2 rounded-full shadow">
+      <a href="https://github.com/Chirack96" target="_blank" class="block bg-white m-2 p-2 rounded-full shadow">
         <img src="@/assets/github.png" alt="GitHub" class="h-8 w-8">
       </a>
-      <a href="https://twitter.com" target="_blank" class="block bg-white m-2 p-2 rounded-full shadow">
+      <a href="https://twitter.com/chirack98" target="_blank" class="block bg-white m-2 p-2 rounded-full shadow">
         <img src="@/assets/TWITTER.png" alt="Twitter" class="h-8 w-8">
       </a>
     </aside>
