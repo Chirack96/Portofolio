@@ -3,17 +3,17 @@
         <form @submit.prevent="submitContactForm"
             class="max-w-lg mx-auto p-8 border rounded-lg shadow-lg animate-slideInRight">
             <div class="mb-6">
-                <label for="name" class="block text-xl font-medium text-gray-700">Name</label>
+                <label for="name" class="block text-xl font-medium text-black">Name</label>
                 <input id="name" v-model="contactForm.name" type="text" required placeholder="First Name, Last Name"
                     class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
             </div>
             <div class="mb-6">
-                <label for="email" class="block text-xl font-medium text-gray-700">Email</label>
+                <label for="email" class="block text-xl font-medium text-black">Email</label>
                 <input id="email" v-model="contactForm.email" type="email" required placeholder="xyz@email.com"
                     class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
             </div>
             <div class="mb-6">
-                <label for="message" class="block text-xl font-medium text-gray-700">Message</label>
+                <label for="message" class="block text-xl font-medium text-black">Message</label>
                 <textarea id="message" v-model="contactForm.message" required placeholder="Your message here..."
                     class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
                     rows="4"></textarea>

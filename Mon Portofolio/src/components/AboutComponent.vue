@@ -3,7 +3,7 @@ import ProjectDetails from '@/components/ProjectDetails.vue';
     <div class="container mx-auto px-4 py-8 animate-fadeIn">
         <div class="flex flex-wrap items-start">
 
-            <!-- Section Get to know me -->
+          
             <div class="w-full md:w-1/2 p-4 animate-slideInLeft">
                 <h2 class="text-2xl font-bold mb-3">Get to know me!</h2>
                 <div class="text-justify mb-3 text">
@@ -33,7 +33,7 @@ import ProjectDetails from '@/components/ProjectDetails.vue';
                 </div>
             </div>
 
-            <!-- Section Skills -->
+           
             <div class="w-full md:w-1/2 p-4 animate-slideInRight">
                 <h3 class="text-2xl font-bold mb-2">SKILLS</h3>
                 <div class="flex flex-wrap gap-2">

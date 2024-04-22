@@ -19,7 +19,7 @@ import HeaderComponent from '@/components/HeaderComponent.vue';
 
 <style scoped>
 .main-bg {
-  background-image: url('@/assets/bg.jpeg');
+  background-image: url('@/assets/bg1.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
