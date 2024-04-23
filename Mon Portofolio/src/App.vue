@@ -15,6 +15,14 @@
 
 <script setup>
 import HeaderComponent from '@/components/HeaderComponent.vue';
+import { defineComponent } from 'vue';
+
+defineComponent({
+  name: 'App',
+  components: {
+    HeaderComponent,
+  },
+});
 </script>
 
 <style scoped>
