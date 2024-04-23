@@ -3,5 +3,6 @@
 </template>
 
 <script setup>
-import ContactComponent from "../components/ContactComponent.vue";
+import ContactComponent from "@/components/ContactComponent.vue";
+;
 </script>
