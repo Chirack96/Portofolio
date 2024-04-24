@@ -5,7 +5,7 @@
     </div>
     <h2 class="text-lg font-semibold title-font text-gray-900 mt-5">{{ name }}</h2>
     <p class="text-sm leading-relaxed mt-2 text-black">{{ description }}</p>
-    <a href="https://github.com/EpitechMscProPromo2026/T-JAV-501-REN_5" class="text-violet-900 inline-flex items-center mt-3 hover:text-violet-900 font-bold transition-colors" target="_blank">
+    <a href="https://github.com/Chirack96" class="text-violet-900 inline-flex items-center mt-3 hover:text-violet-900 font-bold transition-colors" target="_blank">
       Visiter le projet
       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
         class="w-4 h-4 ml-2" viewBox="0 0 24 24">
