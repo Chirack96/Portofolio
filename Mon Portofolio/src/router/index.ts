@@ -2,7 +2,9 @@ import ContactView from '@/views/ContactView.vue';
 import FormationsView from '@/views/FormationsView.vue';
 import HomeView from '@/views/HomeView.vue';
 import ProjectsView from '@/views/ProjectsView.vue';
+
 import { createRouter, createWebHistory } from 'vue-router';
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -37,8 +39,8 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: ContactView
-    }
-  ]
+    },
+]
 })
 
 export default router

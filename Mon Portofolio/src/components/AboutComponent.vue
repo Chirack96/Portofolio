@@ -6,36 +6,36 @@ import ProjectDetails from '@/components/ProjectDetails.vue';
           
             <div class="w-full md:w-1/2 p-4 animate-slideInLeft">
                 <h2 class="text-2xl font-bold mb-3">Get to know me!</h2>
-                <div class="text-justify mb-3 text">
-                    <p>
-                        Bienvenue sur mon espace professionnel ! Je suis un Développeur Web Full-Stack spécialisé dans
-                        la conception des composants front-end et back-end de sites web et d'applications web. Mon
-                        travail garantit le succès du produit final. Vous pouvez découvrir des exemples de mes projets
+                <div class="text-justify mb-4 text">
+                    <p class="mb-4">
+                        Bienvenue sur mon espace professionnel ! Je suis un Développeur Informatique spécialisé dans
+                        la conception des composants front-end et back-end des applications web. Mon
+                        travail garantit le succès du produit final et un maintient durable dans le temps. Vous pouvez découvrir des exemples de mes projets
                         dans la section <strong><a href="/projects"
                                 class="text-violet-900 text-lg">Projects</a></strong>.
-                    </p><br>
-                    <p>
+                    </p>
+                    <p class="mb-4">
                         Je suis passionné par l'apprentissage continu et la veille technologique dans le domaine de
                         l'IT. Je m'efforce constamment de me tenir au courant des dernières avancées et tendances.
-                    </p><br>
-                    <p>
+                    </p>
+                    <p class="mb-4">
                         Je suis actuellement à la recherche d'une alternance pour compléter mon Bac+5. Si vous avez une
                         opportunité excitante qui correspond à mes compétences, n'hésitez pas à me contacter.
                     </p>
-                    <p>
+                    <p class="mb-4">
                         N'hésitez pas à vous connecter avec moi <strong><a
                                 href="https://www.linkedin.com/in/jacques-gougou-457a93287" target="_blank"
                                 class="text-violet-900 text-lg">ici</a></strong> ou à
                         suivre mon <strong><a href="https://www.github.com/Chirack96" target="_blank"
                                 class="text-violet-900 text-lg">Github</a></strong> pour des mises à jour
-                        régulières sur mon parcours et mes projets de développement web.
+                        régulières sur mon parcours et mes projets de développement informatique.
                     </p>
                 </div>
             </div>
 
            
             <div class="w-full md:w-1/2 p-4 animate-slideInRight">
-                <h3 class="text-2xl font-bold mb-2">SKILLS</h3>
+                <h2 class="text-2xl font-bold mb-3">SKILLS</h2>
                 <div class="flex flex-wrap gap-2">
                     <span
                         class="bg-gray-200 text-gray-800 text-sm font-semibold py-2 px-4 rounded-full shadow-sm">Spring
@@ -51,11 +51,14 @@ import ProjectDetails from '@/components/ProjectDetails.vue';
                     <span
                         class="bg-gray-200 text-gray-800 text-sm font-semibold py-2 px-4 rounded-full shadow-sm">MongoDB</span>
                     <span
-                        class="bg-gray-200 text-gray-800 text-sm font-semibold py-2 px-4 rounded-full shadow-sm">Sql</span>
+                        class="bg-gray-200 text-gray-800 text-sm font-semibold py-2 px-4 rounded-full shadow-sm">SQL</span>
                     <span
-                        class="bg-gray-200 text-gray-800 text-sm font-semibold py-2 px-4 rounded-full shadow-sm">PostgreSql</span>
+                        class="bg-gray-200 text-gray-800 text-sm font-semibold py-2 px-4 rounded-full shadow-sm">PostgreSQL</span>
                     <span
                         class="bg-gray-200 text-gray-800 text-sm font-semibold py-2 px-4 rounded-full shadow-sm">SCSS</span>
+                        <span class="bg-gray-200 text-gray-800 text-sm font-semibold py-2 px-4 rounded-full shadow-sm">Tailwind CSS</span>
+                        <span class="bg-gray-200 text-gray-800 text-sm font-semibold py-2 px-4 rounded-full shadow-sm">NG ZORRO</span>
+                        <span class="bg-gray-200 text-gray-800 text-sm font-semibold py-2 px-4 rounded-full shadow-sm">FOMANTIC-UI</span>
 
                     <span
                         class="bg-gray-200 text-gray-800 text-sm font-semibold py-2 px-4 rounded-full shadow-sm">HTML5</span>

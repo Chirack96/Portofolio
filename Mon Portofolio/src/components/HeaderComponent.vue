@@ -4,7 +4,7 @@
       <div class="relative flex items-center justify-between h-16">
         <div class="flex items-center">
           <a href="/home"><img src="@/assets/photo.jpg" alt=""
-              class="h-10 w-10 rounded-full"></a>
+              class="h-10 w-10 rounded-full object-cover mx-auto"></a>
           <span class="ml-3 font-bold text-lg text-violet-900 "><a href="/home">JACQUES GOUGOU</a></span>
         </div>
 

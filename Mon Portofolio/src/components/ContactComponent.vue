@@ -41,16 +41,16 @@
             <a href="https://twitter.com/chirack98" target="_blank">
                 <img src="@/assets/TWITTER.png" alt="Twitter" class="w-8 h-8">
             </a>
-            <a href="mailto:jacqueschirack36@gmail.com?subject=Demande de contact?&body=Bonjour,%0A Je suis très intéressé(e) par votre travail et j'aimerais bien discuter avec vous. Pouvez-vous me recontacter ? Cordialement"
+            <a href="mailto:jacqueschirack36@gmail.com?subject=Demande de contact?&body=Bonjour Jacques,%0A Je suis très intéressé(e) par votre travail et j'aimerais bien discuter avec vous. Pouvez-vous me recontacter ? Cordialement"
                 target="_blank">
-                <img src="@/assets/mail.png" alt="Mail" class="w-8 h-8">
+                <img src="@/assets/email2.png" alt="Mail" class="w-8 h-8">
             </a>
             <a href="tel:+33753512463" target="_blank">
-                <img src=" @/assets/tel.png" alt="Phone" class="w-8 h-8">
+                <img src=" @/assets/tel2.png" alt="Phone" class="w-8 h-8">
             </a>
-            <a href="https://wa.me/+22966429510?text=Bonjour,%0A Je suis très intéressé(e) par votre travail et j'aimerais bien discuter avec vous. Pouvez-vous me recontacter ? Cordialement"
+            <a href="https://wa.me/+22966429510?text=Bonjour Jacques,%0A Je suis très intéressé(e) par votre travail et j'aimerais bien discuter avec vous. Pouvez-vous me recontacter ? Cordialement"
                 target="_blank">
-                <img src=" @/assets/whatsapp.png" alt="WhatsApp" class="w-8 h-8">
+                <img src=" @/assets/what.png" alt="WhatsApp" class="w-8 h-8">
             </a>
 
         </div>

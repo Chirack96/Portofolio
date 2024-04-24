@@ -12,13 +12,24 @@
       <a href="https://twitter.com/chirack98" target="_blank" class="block bg-white m-2 p-2 rounded-full shadow">
         <img src="@/assets/TWITTER.png" alt="Twitter" class="h-8 w-8">
       </a>
+      <a href="mailto:jacqueschirack36@gmail.com?subject=Demande de contact?&body=Bonjour Jacques,%0A Je suis très intéressé(e) par votre travail et j'aimerais bien discuter avec vous. Pouvez-vous me recontacter ? Cordialement"
+        target="_blank" class="block bg-white m-2 p-2 rounded-full shadow">
+        <img src="@/assets/email2.png" alt="Mail" class="w-8 h-8">
+        </a>
+        <a href="tel:+33753512463" target="_blank" class="block bg-white m-2 p-2 rounded-full shadow">
+        <img src=" @/assets/tel2.png" alt="Phone" class="w-8 h-8">
+        </a>
+        <a href="https://wa.me/+22966429510?text=Bonjour Jacques,%0A Je suis très intéressé(e) par votre travail et j'aimerais bien discuter avec vous. Pouvez-vous me recontacter ? Cordialement"
+        target="_blank" class="block bg-white m-2 p-2 rounded-full shadow">
+        <img src=" @/assets/what.png" alt="WhatsApp" class="w-8 h-8">
+        </a>
     </aside>
     <div class="text-center animate-slideInRight">
       <h1 class="text-4xl font-bold text-gray-800">HEY, JE SUIS JACQUES GOUGOU</h1>
       <p class="mt-3 text-lg text-gray-600 max-w-2xl">
         Bienvenue sur mon portfolio ! Je suis un développeur fullstack, spécialisé dans la création de solutions web
         aussi bien côté client (frontend) que côté serveur (backend). Mon approche, centrée sur les résultats, enrichit
-        chaque projet, assurant des produits finaux performants et réussis. Découvrez mes projets et voyez comment je
+        chaque projet, assurant des produits finaux performants et maintenables. Découvrez mes projets et voyez comment je
         peux donner vie à vos idées.
       </p>
       <button
