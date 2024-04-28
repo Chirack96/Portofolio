@@ -4,7 +4,7 @@
       <div v-for="(project, index) in projects" :key="project.id" class="w-full md:w-1/3 p-4"
         :class="{ 'animate-slideInLeft': index % 2 === 0, 'animate-slideInRight': index % 2 !== 0 }">
         <ProjectCard class="w-full shadow-lg text-lg rounded-xl" :name="project.name" :description="project.description"
-          :image="project.image" />
+          :image="project.image" :link="project.link" />
       </div>
     </div>
   </div>
@@ -21,7 +21,7 @@ export default defineComponent({
   data() {
     return {
       projects: [
-        { id: 1, name: 'Jobboard', description: 'Projet académique consitstant à créer un site web de recherche d\'emploi comme indeed. HTML5 CSS3 FOMANTIC-UI PHP7.8.', image: 'https://uppercut-search.fr/wp-content/uploads/2019/11/JOBBOARD.png' },
+        { id: 1, name: 'Jobboard', description: 'Projet académique consitstant à créer un site web de recherche d\'emploi comme indeed. HTML5 CSS3 FOMANTIC-UI PHP7.8.', image: 'https://uppercut-search.fr/wp-content/uploads/2019/11/JOBBOARD.png', link: '/about' },
         { id: 2, name: 'Jeu 2D Java', description: 'Création d\'un jeu 2D programmé en Java et LibGDX. Modelisation, conception et diagrammes UML. ', image: 'https://javaetmoi.com/wp-content/uploads/2019/02/2019-02-Black-Hell-Screenshot-1-player-1024x643.png' },
         { id: 3, name: 'ChatApp', description: 'Réalisation d\'une appli web de type discord avec NodeJS, ExpressJS, MongoDB, ReactJS, Socket.IO.', image: 'https://img.freepik.com/premium-vector/chat-app-logo-design-template-can-be-used-icon-chat-application-logo_605910-1724.jpg' },
         { id: 4, name: 'DevOps', description: 'Création d\'images dockerfile pour des app prédéfinies. Création de containers et build avec Docker Compose.', image: 'https://www.1min30.com/wp-content/uploads/2018/04/Symbole-Docker.jpg' },
