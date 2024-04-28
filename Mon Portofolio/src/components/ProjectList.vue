@@ -3,7 +3,7 @@
     <div class="flex flex-wrap justify-center">
       <div v-for="(project, index) in projects" :key="project.id" class="w-full md:w-1/3 p-4"
         :class="{ 'animate-slideInLeft': index % 2 === 0, 'animate-slideInRight': index % 2 !== 0 }">
-        <ProjectCard class="w-full shadow-lg text-lg" :name="project.name" :description="project.description"
+        <ProjectCard class="w-full shadow-lg text-lg rounded-xl" :name="project.name" :description="project.description"
           :image="project.image" />
       </div>
     </div>
